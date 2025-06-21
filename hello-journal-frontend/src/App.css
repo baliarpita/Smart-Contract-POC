@@ -56,3 +56,16 @@ button:hover {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   text-align: left;
 }
+
+.intro-box {
+  background: #e0f2fe; /* light blue */
+  border-left: 6px solid #38bdf8; /* blue accent */
+  padding: 1rem 1.2rem;
+  margin: 1rem auto 2rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 600px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+

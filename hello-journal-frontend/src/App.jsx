@@ -86,20 +86,29 @@ export default function App() {
   return (
     <main>
       <h1>📝 Community Journal</h1>
+      <div className="intro-box">
+        <h3>📘 What’s a Smart Contract?</h3>
+        <p><b>Smartcontracts</b> 📝 are self-executing programs, stored and run on a blockchain network, 
+        that automatically carries out the terms of an agreement when predefined conditions are met.</p>
+        <p>Think of it like a <i>digital vending machine</i>: you put in the correct payment 📜 (condition met), 
+        and it automatically dispenses the product ✨ (action executed)!</p>
+      </div>
 
       {/* Step 1: Connect */}
       <section>
-        <h2>Step 1: Connect your Web3 Wallet to Review Messag Wall and Add a New Message To the Wall</h2>
+        <h2>Step 1: Connect your Web3 Wallet</h2>
+        <p>- See messaged posted by others on the blockchain network
+        <br></br>- Add your new message to the wall <i>(requires web3 wallet & spendanble ETH)</i></p>
         {!account ? (
           <button onClick={connectWallet}>Connect MetaMask</button>
         ) : (
-          <p>Connected Web3 Wallet: {account}</p>
+          <p>✅ <b>Your Web3 Wallet is Connected:</b> {account}</p>
         )}
       </section>
 
       {/* Step 2: Write Message */}
       <section>
-        <h2>Step 2: Write a message to the community wall</h2>
+        <h2>Step 2: Write a Message to the Community Wall</h2>
         <form onSubmit={handleSubmit}>
           <textarea
             rows="3"
