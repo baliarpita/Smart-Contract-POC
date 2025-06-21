@@ -6,13 +6,16 @@ A lightweight Ethereum-powered journaling dApp that lets users post messages on-
 
 ## Smart Contract
 
-# 1. Access smart contract here for interacting using BaseScan: 0xDE4CEd1e50794559881c3Fd4d1C43814D9BbacE8
+# 1. Intercat with the smart contract using Basescan:
+Access smart contract here for interacting using BaseScan: 0xDE4CEd1e50794559881c3Fd4d1C43814D9BbacE8
 https://sepolia.basescan.org/address/0xDE4CEd1e50794559881c3Fd4d1C43814D9BbacE8#code
 
 Smartcontracts are programmable, self-executing programs, stored and run on a blockchain network, that automatically carries out the terms of an agreement when predefined conditions are met. Think of it like a digital vending machine: you put in the correct payment (condition met), and it automatically dispenses the product (action executed).
 
 # 2: Interact with the smart contract using a UI
-Review **Installation & Running** section to start the UI on your locahost 
+Access the UI deployed on Vercel here: https://smart-contract-poc.vercel.app/
+
+Or, review **Installation & Running** section to start the UI on your locahost 
 
 ---
 
@@ -33,7 +36,8 @@ Review **Installation & Running** section to start the UI on your locahost
 - **Frontend:** React, Vite
 - **Blockchain Integration:** Ethers.js, Hardhat
 - **Wallet:** MetaMask / `window.ethereum`
-- **Styling:** Custom CSS (no Tailwind)
+- **Styling:** Custom CSS
+- **Deployment:** Basecan testnet for Smart Contract & Vercel for UI
 
 ---
 
