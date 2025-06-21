@@ -89,7 +89,7 @@ export default function App() {
 
       {/* Step 1: Connect */}
       <section>
-        <h2>Step 1: Connect your Web3 Wallet</h2>
+        <h2>Step 1: Connect your Web3 Wallet to Review Messag Wall and Add a New Message To the Wall</h2>
         {!account ? (
           <button onClick={connectWallet}>Connect MetaMask</button>
         ) : (
