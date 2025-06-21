@@ -31,7 +31,7 @@ Review **Installation & Running** section to start the UI on your locahost
 ## 🛠 Tech Stack
 
 - **Frontend:** React, Vite
-- **Blockchain Integration:** Ethers.js
+- **Blockchain Integration:** Ethers.js, Hardhat
 - **Wallet:** MetaMask / `window.ethereum`
 - **Styling:** Custom CSS (no Tailwind)
 
@@ -68,3 +68,7 @@ getTotalEntries() → uint: returns total message count
 getEntry(index) → [address, string, uint]: returns sender, message, timestamp
 
 postEntry(string message) → posts a new entry
+
+---
+
+## Made with ❤️ using React,  Web3 tech & ChatGPT
