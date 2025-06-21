@@ -6,7 +6,7 @@ A lightweight Ethereum-powered journaling dApp that lets users post messages on-
 
 ## Smart Contract
 
-# 1. Intercat with the smart contract using Basescan:
+# 1. Interact with the smart contract using Basescan:
 Access smart contract here for interacting using BaseScan: 0xDE4CEd1e50794559881c3Fd4d1C43814D9BbacE8
 https://sepolia.basescan.org/address/0xDE4CEd1e50794559881c3Fd4d1C43814D9BbacE8#code
 
@@ -16,6 +16,8 @@ Smartcontracts are programmable, self-executing programs, stored and run on a bl
 Access the UI deployed on Vercel here: https://smart-contract-poc.vercel.app/
 
 Or, review **Installation & Running** section to start the UI on your locahost 
+
+
 
 ---
 
