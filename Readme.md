@@ -17,7 +17,7 @@ Access the UI deployed on Vercel here: https://smart-contract-poc.vercel.app/
 
 Or, review **Installation & Running** section to start the UI on your locahost 
 
-
+![Screenshot 2025-06-21 153251](https://github.com/user-attachments/assets/c895f0ac-1eb2-492b-b0cb-b759d9b2eee1)
 
 ---
 
